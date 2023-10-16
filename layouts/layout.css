@@ -18,15 +18,16 @@
 }
 .item4 {
   grid-column: 2;
-  grid-row: 3;
+  grid-row: 3 / 5;
 }
 .item5 {
   grid-column: 1;
   grid-row: 2;
 }
-.six {
+
+.item6 {
   grid-column: 3;
-  grid-row: 4;
+  grid-row: 3
 }
 
 body {
@@ -40,27 +41,14 @@ h1, h2, h3 {
   text-align: center;
 }
 
-a {
+p {
   color: #FF4081;
   text-decoration: none;
   transition: color 0.3s ease-in-out;
 }
 
-a:hover {
+p:hover {
   color: #6A1B9A;
-}
-
-.cat-image {
-  display: block;
-  margin: 0 auto;
-  border-radius: 50%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-.cat-fact {
-  text-align: center;
-  font-size: 18px;
-  margin-top: 20px;
 }
 
 .button {
